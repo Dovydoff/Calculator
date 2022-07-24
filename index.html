@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator</title>
+</head>
+<script src="script.js">
+    swithCal
+</script>
+
+<body>
+    <div class="main">
+    <div class="input12">
+        <input type="number" class="textfield" value="" id="pirmas"/>        
+        <input type="number" class="textfield" value="" id="antras"/>
+
+    </div> 
+    <div id="moves">
+        <button class="sign" id="sum" onclick="sum()">Sudėkite</button>
+        <button class="sign" id="sub" onclick="sub()">Atimkite</button>
+        <button class="sign" id="div" onclick="div()">Padalinkite</button>
+        <button class="sign" id="mul" onclick="mul()">Padauginkite</button>
+        <button class="sign" id="mod" onclick="mod()">Liekana</button>
+
+    </div>
+    <br>
+
+    <button class="clear" id="clear" onclick="empty()">Clear</button>
+
+    <div id="total">
+        <input type="text" name="total" id="total"/>
+    </div>
+</div>
+
+</body>
+</html>

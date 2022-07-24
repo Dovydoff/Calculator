@@ -1,0 +1,107 @@
+#moves, #total {
+    margin-top: 1rem;
+    
+}
+  input{
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    width: 50%;
+} 
+
+#pirmas, #antras {
+    background-color: aqua;
+}
+body {
+    display: table;
+    margin: auto;
+    background-color: rgb(175, 174, 172);
+
+}
+.main {
+    margin-top: 10rem;  
+    height: 10px;
+}
+
+#sum {
+    color: black;
+    border: 2px solid #e7e7e7;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#sub {
+    color: black;
+    border: 2px solid #e7e7e7;
+    background-color: #4c68af; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#div {
+    color: black;
+    border: 2px solid #e7e7e7;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#mul {
+    color: black;
+    border: 2px solid #e7e7e7;
+    background-color: #4c68af; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mod {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#clear {
+    text-align:center;
+    background-color: brown;
+    border-radius: 5rem;
+    height: 50px;
+    width: 50%;
+}
+#total{
+    background-color: rgb(175, 174, 172);
+    border: none;
+    color: aqua;
+    font-size: 50px;
+}
